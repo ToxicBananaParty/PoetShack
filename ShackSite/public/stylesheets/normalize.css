@@ -1,0 +1,333 @@
+/*
+PRODUCTION CSS BELOW THIS
+==========================
+*/
+/*
+.dynamicBody {
+  height: 100%;
+  position: relative;
+ }  
+ body{
+     margin: 0 auto;
+     font: 1rem "Lucida Grande", Helvetica, Arial, sans-serif;
+   }
+   h1 {
+     display: flex;
+     justify-content: center;
+     padding: 15px;
+     font-size: 1em;
+     align-items: center;
+     height: 4vh;
+     color: white;
+     background-color: black;
+     position: fixed;
+     z-index: 100;
+     width: 100%;
+     margin-top: 0;
+ 
+   }
+   ul, ul > li {
+     display: flex;
+     justify-content: center;
+     padding: 10px;
+   }
+ 
+   .poems {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+     border: 1px solid;
+   }
+ 
+   .poemRedirect {
+     display: inherit;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     height: 90vh;
+     border: 1px solid black;
+     background-image: url('../effect.gif');
+     background-size: cover;
+     background-position: center;
+     font-size: 3em;
+    
+   }
+ 
+    header, section{
+     width: 1200px;
+   }
+   h1 {
+     font-size: 3rem;
+   }
+   h2 {
+     font-size: 2rem;
+     font-weight: normal;
+   }
+   
+   button {
+     display: block;
+   }
+   section.poems{
+     width: calc(100%-4em);
+     display:grid;
+     grid-template-columns: auto auto auto auto;
+   }
+   .bigQuote{
+     font-size:3em;
+     color:#666666;
+   }
+   div.poem {
+     border: #eeeeee 1px solid;
+     border-radius: 3px;
+     margin: 1%;
+     padding: clamp(5px, calc(12%/8 - 8px), 10px);
+     width: clamp(150px, 20%, 300px);
+     height: clamp(200px, 25%, 350px);
+     z-index:1000;
+   }
+   div.poem p:first-child{
+     height: 80%;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     text-align:left;
+     z-index:-1
+   }
+   div.poem p{
+     text-align:right;
+     z-index:-1;
+   } */
+ @media screen and (min-width: 2100px) {
+ 
+ }
+ @media screen and (max-width: 1600px) {
+    
+ }
+ @media screen and (max-width: 1200px) {
+  
+ }
+ @media screen and (max-width: 800px) {
+     
+ }
+   /*
+   =====================
+   DEBUG CSS BELOW THIS
+   =====================
+ 
+   body {
+     padding: 2em;
+     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+   }
+   
+   h1 {
+     font-size: 55px;
+   }
+   
+   h2 {
+     font-size: 30px;
+     font-weight: normal;
+   }
+   
+   a {
+     color: #00B7FF;
+   }
+   
+   button {
+     display: block;
+   }
+   
+   table {
+     table-layout: fixed;
+     width: 65%;
+     border-collapse: collapse;
+   }
+   
+   tr {
+     border: 2px solid black;
+   }
+   
+   td, th {
+     border: 2px solid black;
+   }
+   
+   td:first-child {
+     text-align: center;
+   }
+   
+   td:nth-child(2) {
+     text-align: center;
+   }
+   
+   .fitwidth {
+     width: 100px;
+     word-wrap: break-word;
+   }
+=======
+/*
+==========================
+PRODUCTION CSS BELOW THIS
+==========================
+*/
+/*
+.dynamicBody {
+  height: 100%;
+  position: relative;
+ }  
+ body{
+     margin: 0 auto;
+     font: 1rem "Lucida Grande", Helvetica, Arial, sans-serif;
+   }
+   h1 {
+     display: flex;
+     justify-content: center;
+     padding: 15px;
+     font-size: 1em;
+     align-items: center;
+     height: 4vh;
+     color: white;
+     background-color: black;
+     position: fixed;
+     z-index: 100;
+     width: 100%;
+     margin-top: 0;
+ 
+   }
+   ul, ul > li {
+     display: flex;
+     justify-content: center;
+     padding: 10px;
+   }
+ 
+   .poems {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+     border: 1px solid;
+   }
+ 
+   .poemRedirect {
+     display: inherit;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     height: 90vh;
+     border: 1px solid black;
+     background-image: url('../effect.gif');
+     background-size: cover;
+     background-position: center;
+     font-size: 3em;
+    
+   }
+ 
+    header, section{
+     width: 1200px;
+   }
+   h1 {
+     font-size: 3rem;
+   }
+   h2 {
+     font-size: 2rem;
+     font-weight: normal;
+   }
+   
+   button {
+     display: block;
+   }
+   section.poems{
+     width: calc(100%-4em);
+     display:grid;
+     grid-template-columns: auto auto auto auto;
+   }
+   .bigQuote{
+     font-size:3em;
+     color:#666666;
+   }
+   div.poem {
+     border: #eeeeee 1px solid;
+     border-radius: 3px;
+     margin: 1%;
+     padding: clamp(5px, calc(12%/8 - 8px), 10px);
+     width: clamp(150px, 20%, 300px);
+     height: clamp(200px, 25%, 350px);
+     z-index:1000;
+   }
+   div.poem p:first-child{
+     height: 80%;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     text-align:left;
+     z-index:-1
+   }
+   div.poem p{
+     text-align:right;
+     z-index:-1;
+   } */
+ @media screen and (min-width: 2100px) {
+ 
+ }
+ @media screen and (max-width: 1600px) {
+    
+ }
+ @media screen and (max-width: 1200px) {
+  
+ }
+ @media screen and (max-width: 800px) {
+     
+ }
+   /*
+   =====================
+   DEBUG CSS BELOW THIS
+   =====================
+ 
+   body {
+     padding: 2em;
+     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+   }
+   
+   h1 {
+     font-size: 55px;
+   }
+   
+   h2 {
+     font-size: 30px;
+     font-weight: normal;
+   }
+   
+   a {
+     color: #00B7FF;
+   }
+   
+   button {
+     display: block;
+   }
+   
+   table {
+     table-layout: fixed;
+     width: 65%;
+     border-collapse: collapse;
+   }
+   
+   tr {
+     border: 2px solid black;
+   }
+   
+   td, th {
+     border: 2px solid black;
+   }
+   
+   td:first-child {
+     text-align: center;
+   }
+   
+   td:nth-child(2) {
+     text-align: center;
+   }
+   
+   .fitwidth {
+     width: 100px;
+     word-wrap: break-word;
+   }
+     */

@@ -1,0 +1,519 @@
+{
+    "poem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae ante consequat, volutpat ante vel, pretium tortor. Vestibulum consectetur, odio nec dictum laoreet, arcu magna dignissim odio, quis imperdiet libero risus non lorem.",
+    "author": "Ryan Dwyer",
+    "syllables": [
+        "lo",
+        "rem",
+        "ip",
+        "sum",
+        "do",
+        "lor",
+        "sit",
+        "a",
+        "met",
+        "con",
+        "sec",
+        "te",
+        "tur",
+        "a",
+        "di",
+        "pis",
+        "cing",
+        "e",
+        "lit",
+        "in",
+        "vi",
+        "tae",
+        "an",
+        "te",
+        "con",
+        "se",
+        "quat",
+        "vo",
+        "lut",
+        "pat",
+        "an",
+        "te",
+        "vel",
+        "pre",
+        "tium",
+        "tor",
+        "tor",
+        "ves",
+        "ti",
+        "bu",
+        "lum",
+        "con",
+        "sec",
+        "te",
+        "tur",
+        "o",
+        "dio",
+        "nec",
+        "dic",
+        "tum",
+        "lao",
+        "reet",
+        "ar",
+        "cu",
+        "mag",
+        "na",
+        "dig",
+        "nis",
+        "sim",
+        "o",
+        "dio",
+        "quis",
+        "im",
+        "per",
+        "diet",
+        "li",
+        "be",
+        "ro",
+        "ri",
+        "sus",
+        "non",
+        "lo",
+        "rem"
+    ],
+    "midiArray": [
+        {
+            "syllable": "lo",
+            "note": 60,
+            "duration": 2,
+            "order": 1
+        },
+        {
+            "syllable": "rem",
+            "note": 68,
+            "duration": 2,
+            "order": 2
+        },
+        {
+            "syllable": "ip",
+            "note": 67,
+            "duration": 1,
+            "order": 3
+        },
+        {
+            "syllable": "sum",
+            "note": 68,
+            "duration": 1,
+            "order": 4
+        },
+        {
+            "syllable": "do",
+            "note": 74,
+            "duration": 1,
+            "order": 5
+        },
+        {
+            "syllable": "lor",
+            "note": 62,
+            "duration": 1,
+            "order": 6
+        },
+        {
+            "syllable": "sit",
+            "note": 67,
+            "duration": 1,
+            "order": 7
+        },
+        {
+            "syllable": "a",
+            "note": 60,
+            "duration": 2,
+            "order": 8
+        },
+        {
+            "syllable": "met",
+            "note": 71,
+            "duration": 1,
+            "order": 9
+        },
+        {
+            "syllable": "con",
+            "note": 74,
+            "duration": 3,
+            "order": 10
+        },
+        {
+            "syllable": "sec",
+            "note": 62,
+            "duration": 2,
+            "order": 11
+        },
+        {
+            "syllable": "te",
+            "note": 60,
+            "duration": 4,
+            "order": 12
+        },
+        {
+            "syllable": "tur",
+            "note": 71,
+            "duration": 2,
+            "order": 13
+        },
+        {
+            "syllable": "a",
+            "note": 60,
+            "duration": 2,
+            "order": 14
+        },
+        {
+            "syllable": "di",
+            "note": 62,
+            "duration": 1,
+            "order": 15
+        },
+        {
+            "syllable": "pis",
+            "note": 74,
+            "duration": 1,
+            "order": 16
+        },
+        {
+            "syllable": "cing",
+            "note": 71,
+            "duration": 1,
+            "order": 17
+        },
+        {
+            "syllable": "e",
+            "note": 60,
+            "duration": 1,
+            "order": 18
+        },
+        {
+            "syllable": "lit",
+            "note": 74,
+            "duration": 1,
+            "order": 19
+        },
+        {
+            "syllable": "in",
+            "note": 65,
+            "duration": 1,
+            "order": 20
+        },
+        {
+            "syllable": "vi",
+            "note": 62,
+            "duration": 1,
+            "order": 21
+        },
+        {
+            "syllable": "tae",
+            "note": 74,
+            "duration": 1,
+            "order": 22
+        },
+        {
+            "syllable": "an",
+            "note": 62,
+            "duration": 2,
+            "order": 23
+        },
+        {
+            "syllable": "te",
+            "note": 60,
+            "duration": 4,
+            "order": 24
+        },
+        {
+            "syllable": "con",
+            "note": 74,
+            "duration": 3,
+            "order": 25
+        },
+        {
+            "syllable": "se",
+            "note": 60,
+            "duration": 1,
+            "order": 26
+        },
+        {
+            "syllable": "quat",
+            "note": 62,
+            "duration": 1,
+            "order": 27
+        },
+        {
+            "syllable": "vo",
+            "note": 65,
+            "duration": 1,
+            "order": 28
+        },
+        {
+            "syllable": "lut",
+            "note": 67,
+            "duration": 1,
+            "order": 29
+        },
+        {
+            "syllable": "pat",
+            "note": 68,
+            "duration": 1,
+            "order": 30
+        },
+        {
+            "syllable": "an",
+            "note": 62,
+            "duration": 2,
+            "order": 31
+        },
+        {
+            "syllable": "te",
+            "note": 60,
+            "duration": 4,
+            "order": 32
+        },
+        {
+            "syllable": "vel",
+            "note": 74,
+            "duration": 1,
+            "order": 33
+        },
+        {
+            "syllable": "pre",
+            "note": 60,
+            "duration": 1,
+            "order": 34
+        },
+        {
+            "syllable": "tium",
+            "note": 65,
+            "duration": 1,
+            "order": 35
+        },
+        {
+            "syllable": "tor",
+            "note": 67,
+            "duration": 2,
+            "order": 36
+        },
+        {
+            "syllable": "tor",
+            "note": 67,
+            "duration": 2,
+            "order": 37
+        },
+        {
+            "syllable": "ves",
+            "note": 60,
+            "duration": 1,
+            "order": 38
+        },
+        {
+            "syllable": "ti",
+            "note": 62,
+            "duration": 1,
+            "order": 39
+        },
+        {
+            "syllable": "bu",
+            "note": 68,
+            "duration": 1,
+            "order": 40
+        },
+        {
+            "syllable": "lum",
+            "note": 65,
+            "duration": 1,
+            "order": 41
+        },
+        {
+            "syllable": "con",
+            "note": 74,
+            "duration": 3,
+            "order": 42
+        },
+        {
+            "syllable": "sec",
+            "note": 62,
+            "duration": 2,
+            "order": 43
+        },
+        {
+            "syllable": "te",
+            "note": 60,
+            "duration": 4,
+            "order": 44
+        },
+        {
+            "syllable": "tur",
+            "note": 71,
+            "duration": 2,
+            "order": 45
+        },
+        {
+            "syllable": "o",
+            "note": 67,
+            "duration": 2,
+            "order": 46
+        },
+        {
+            "syllable": "dio",
+            "note": 71,
+            "duration": 2,
+            "order": 47
+        },
+        {
+            "syllable": "nec",
+            "note": 60,
+            "duration": 1,
+            "order": 48
+        },
+        {
+            "syllable": "dic",
+            "note": 65,
+            "duration": 1,
+            "order": 49
+        },
+        {
+            "syllable": "tum",
+            "note": 68,
+            "duration": 1,
+            "order": 50
+        },
+        {
+            "syllable": "lao",
+            "note": 68,
+            "duration": 1,
+            "order": 51
+        },
+        {
+            "syllable": "reet",
+            "note": 67,
+            "duration": 1,
+            "order": 52
+        },
+        {
+            "syllable": "ar",
+            "note": 65,
+            "duration": 1,
+            "order": 53
+        },
+        {
+            "syllable": "cu",
+            "note": 60,
+            "duration": 1,
+            "order": 54
+        },
+        {
+            "syllable": "mag",
+            "note": 68,
+            "duration": 1,
+            "order": 55
+        },
+        {
+            "syllable": "na",
+            "note": 74,
+            "duration": 1,
+            "order": 56
+        },
+        {
+            "syllable": "dig",
+            "note": 68,
+            "duration": 1,
+            "order": 57
+        },
+        {
+            "syllable": "nis",
+            "note": 62,
+            "duration": 1,
+            "order": 58
+        },
+        {
+            "syllable": "sim",
+            "note": 65,
+            "duration": 1,
+            "order": 59
+        },
+        {
+            "syllable": "o",
+            "note": 67,
+            "duration": 2,
+            "order": 60
+        },
+        {
+            "syllable": "dio",
+            "note": 71,
+            "duration": 2,
+            "order": 61
+        },
+        {
+            "syllable": "quis",
+            "note": 65,
+            "duration": 1,
+            "order": 62
+        },
+        {
+            "syllable": "im",
+            "note": 62,
+            "duration": 1,
+            "order": 63
+        },
+        {
+            "syllable": "per",
+            "note": 71,
+            "duration": 1,
+            "order": 64
+        },
+        {
+            "syllable": "diet",
+            "note": 67,
+            "duration": 1,
+            "order": 65
+        },
+        {
+            "syllable": "li",
+            "note": 71,
+            "duration": 1,
+            "order": 66
+        },
+        {
+            "syllable": "be",
+            "note": 67,
+            "duration": 1,
+            "order": 67
+        },
+        {
+            "syllable": "ro",
+            "note": 74,
+            "duration": 1,
+            "order": 68
+        },
+        {
+            "syllable": "ri",
+            "note": 71,
+            "duration": 1,
+            "order": 69
+        },
+        {
+            "syllable": "sus",
+            "note": 71,
+            "duration": 1,
+            "order": 70
+        },
+        {
+            "syllable": "non",
+            "note": 65,
+            "duration": 1,
+            "order": 71
+        },
+        {
+            "syllable": "lo",
+            "note": 60,
+            "duration": 2,
+            "order": 72
+        },
+        {
+            "syllable": "rem",
+            "note": 68,
+            "duration": 2,
+            "order": 73
+        }
+    ]
+}

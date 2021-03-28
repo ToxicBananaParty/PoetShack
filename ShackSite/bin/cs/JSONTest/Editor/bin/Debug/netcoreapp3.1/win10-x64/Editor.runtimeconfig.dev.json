@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/bitnami/.dotnet/store/|arch|/|tfm|",
+      "/home/bitnami/.nuget/packages"
+    ]
+  }
+}

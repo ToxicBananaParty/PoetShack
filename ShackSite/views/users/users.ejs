@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <th>user ID</th>
+        <th>username</th>
+    </tr>
+<% users.forEach((user, index) => { %>
+    <tr>
+        <td><%= user.id %></td>
+        <td><%= user.username %></td>
+    </tr>
+<% }); %>
+</table>

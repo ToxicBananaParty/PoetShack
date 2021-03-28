@@ -1,0 +1,31 @@
+
+<!-- <ul>
+    <li>
+        <form action="/login">
+            <button type="submit">Login</button>
+        </form>
+    </li>
+    <li>
+        <form action="/register">
+            <button type="submit">Register</button>
+        </form>
+    </li>
+    <li>
+        <form action="/users">
+            <button type="submit">View users</button>
+        </form>
+    </li>
+   </ul> -->
+<section class="help">
+    <div class="introCont" style="display: none;">
+        <%- include ('intro.ejs') %>
+    </div>
+</section>
+<section class="poems">
+    <% poems.forEach((poem, index) => { %>
+        <div class="poem poemRedirect gif<%=poem.gif%>" data-pid= "<%=poem.id%>">
+            <p class="poem poemText"><%= poem.poem %></p>
+            <p class="poem author">By <%= poem.author%></p>
+        </div>
+    <%}); %>
+    </section>

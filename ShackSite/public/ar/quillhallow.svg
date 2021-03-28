@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="32px" viewBox="0 0 27 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Stroke 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.169260866 0.606 20.8904 0.606 20.8904 31.3381 0.169260866 31.3381"></polygon>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Explore" transform="translate(-203.000000, -750.000000)">
+            <g id="Group" transform="translate(29.000000, 734.000000)">
+                <g id="Group-8" transform="translate(174.000000, 15.000000)">
+                    <g id="Stroke-3" transform="translate(0.000000, 0.394400)">
+                        <path d="M26.1924,27.6143 C21.4024,26.5693 16.4144,26.8973 11.8024,28.5613 C11.7934,28.6063 3.3734,31.7943 1.9454,31.3863" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="Group-7" fill-rule="evenodd">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-6"></g>
+                            <path d="M4.4834,25.7471 C4.4834,25.7471 15.7634,21.0841 18.1514,10.1721 L14.3934,10.1721 C16.1174,9.6051 17.6714,8.6181 18.9194,7.2991 C18.8974,7.3121 18.6364,4.9251 20.8904,0.7101 C20.8774,0.6281 11.6544,-0.5489 4.1174,7.5991 C4.0084,7.6951 -2.3196,15.3581 1.2704,23.9821 C1.2704,24.0281 5.0694,8.7821 15.4944,4.1171 C15.5804,4.1461 3.7004,11.1321 1.3654,31.3381 C1.4774,31.2861 4.4834,25.7471 4.4834,25.7471 L4.4834,25.7471 Z" id="Fill-5" stroke="#FFFFFF" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yg5TtPDlANcxU6rHbSSjG32sAdCmfVQTmW/7GPPWeVWpmO51Oy675YjGn+/m92WHdMBokMxp9fHBpzrBPXf/fg==",
+  "success": true,
+  "projectFilePath": "/opt/bitnami/projects/sample/bin/cs/JSONTest/Editor/Editor.csproj",
+  "expectedPackageFiles": [
+    "/home/bitnami/.nuget/packages/microsoft.netcore.app.runtime.win-x64/3.1.8/microsoft.netcore.app.runtime.win-x64.3.1.8.nupkg.sha512",
+    "/home/bitnami/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/3.1.8/microsoft.aspnetcore.app.runtime.win-x64.3.1.8.nupkg.sha512",
+    "/home/bitnami/.nuget/packages/microsoft.netcore.app.host.win-x64/3.1.8/microsoft.netcore.app.host.win-x64.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}

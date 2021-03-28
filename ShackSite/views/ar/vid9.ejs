@@ -1,0 +1,60 @@
+<script>
+    AFRAME.registerComponent('play-on-click', {
+      init: function () {
+        this.onClick = this.onClick.bind(this);
+      },
+      play: function () {
+        window.addEventListener('click', this.onClick);
+      },
+      pause: function () {
+        window.removeEventListener('click', this.onClick);
+      },
+      onClick: function (evt) {
+        var videoEl = this.el.getAttribute('material').src;
+        if (!videoEl) { return; }
+        this.el.object3D.visible = true;
+        videoEl.play();
+      }
+    });
+    AFRAME.registerComponent('hide-on-play', {
+      schema: {type: 'selector'},
+      init: function () {
+          this.onPlaying = this.onPlaying.bind(this);
+          this.onPause = this.onPause.bind(this);
+      },
+      play: function () {
+          if (this.data) {
+          this.data.addEventListener('playing', this.onPlaying);
+          this.data.addEventListener('pause', this.onPause);
+          }
+      },
+      pause: function () {
+          if (this.data) {
+          this.data.removeEventListener('playing', this.onPlaying);
+          this.data.removeEventListener('pause', this.onPause);
+          }
+      },
+      onPlaying: function (evt) {
+          this.el.setAttribute('visible', false);
+      },
+      onPause: function (evt) {
+          this.el.setAttribute('visible', true);
+      }
+    });
+  </script>
+    <a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;' renderer='precision: medium;' vr-mode-ui="enabled: false">
+      <a-assets>
+        <video id="vid9" loop="true" crossorigin="anonymous" src='../ar/content/if_I_can.mp4'></video>
+      </a-assets>
+      <a-marker  type='barcode' value='8' vidhandler="video: #vid9">
+          <a-entity material="shader: flat; src: #vid9"
+                  geometry="primitive: plane; width: 160; height: 90;"
+                  position="0 60 -250"
+                  rotation="0 35 0"
+                  play-on-click
+                  visible="false">
+          </a-entity>
+        <a-plane position="0 0 0" material='src: #vid9' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>

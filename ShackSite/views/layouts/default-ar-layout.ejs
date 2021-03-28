@@ -1,0 +1,36 @@
+<html lang="en">
+    <!-- Head -->
+    <%- include ('../partials/header-ar.ejs') %>
+    <!-- Body -->
+    <body>
+        <header>
+            <a href="/">
+            <div class="headerTitle">
+                <div class="headerRe">THE GATHERING</div>
+                <div class="headerRe">AT THE POET'S SHACK</div>
+            </div>
+            </a>
+            <div class="hamburger">
+                  <hr class="hamburger__top-bun">
+                  <hr class="hamburger__bottom-bun">
+            </div>
+            <div class="nav">
+                <hr class="hr">
+                <a href="/info">who we are</a>
+                <hr class="hr">
+                <a href="/shack">the poet's shack</a>
+                <hr class="hr">
+                <a href="/about">about the project</a>
+                <hr class="hr">
+                <a href="/social">follow us</a>
+                <hr class="hr">
+                <a class="gettingStarted">tutorial</a>
+                <hr class="hr">
+            </div>
+            
+            <!-- <img class="more" src="menu.svg" alt="more"> -->
+        </header>
+        <!-- Body: DYNAMICALLY GENERATED -->
+        <section class="dynamicBody"><%- body %></section>
+
+    <%- include ('../partials/footer.ejs') %>

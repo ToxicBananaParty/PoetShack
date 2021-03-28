@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/opt/bitnami/projects/sample/bin/cs/JSONTest/Editor/Editor.csproj": {}
+  },
+  "projects": {
+    "/opt/bitnami/projects/sample/bin/cs/JSONTest/Editor/Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/opt/bitnami/projects/sample/bin/cs/JSONTest/Editor/Editor.csproj",
+        "projectName": "Editor",
+        "projectPath": "/opt/bitnami/projects/sample/bin/cs/JSONTest/Editor/Editor.csproj",
+        "packagesPath": "/home/bitnami/.nuget/packages/",
+        "outputPath": "/opt/bitnami/projects/sample/bin/cs/JSONTest/Editor/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bitnami/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.8, 3.1.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.8, 3.1.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

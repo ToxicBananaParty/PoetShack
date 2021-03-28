@@ -1,0 +1,50 @@
+<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;' renderer='precision: medium;' vr-mode-ui="enabled: false">
+    <a-assets>
+      <video id="vid1" loop="true" crossorigin="anonymous" src='../ar/content/road_less.mp4' muted></video>
+      <video id="vid2" loop="true" crossorigin="anonymous" src='../ar/content/bach.mp4' muted></video>
+      <video id="vid3" loop="true" crossorigin="anonymous" src='../ar/content/beach.mp4' muted></video>
+      <video id="vid4" loop="true" crossorigin="anonymous" src='../ar/content/Pergolesi.mp4' muted></video>
+      <video id="vid5" loop="true" crossorigin="anonymous" src='../ar/content/chopin.mp4' muted></video>
+      <video id="vid6" loop="true" crossorigin="anonymous" src='../ar/content/carrying_our_words.mp4' muted></video>
+      <video id="vid7" loop="true" crossorigin="anonymous" src='../ar/content/compassion.mp4' muted></video>
+      <video id="vid8" loop="true" crossorigin="anonymous" src='../ar/content/I_too.mp4' muted></video>
+      <video id="vid9" loop="true" crossorigin="anonymous" src='../ar/content/if_I_can.mp4' muted></video>
+      <video id="vid10" loop="true" crossorigin="anonymous" src='../ar/content/Invitation.mp4' muted></video>
+      <video id="vid11" loop="true" crossorigin="anonymous" src='../ar/content/kindness.mp4' muted></video>
+    </a-assets>
+    <a-marker  type='barcode' value='0' vidhandler="video: #vid1">
+      <a-plane position="0 0 0" material='src: #vid1' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-marker type='barcode' value='1' vidhandler="video: #vid2">
+      <a-plane position="0 0 0" material='src: #vid2' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-marker type='barcode' value='2' vidhandler="video: #vid3">
+      <a-plane position="0 0 0" material='src: #vid3' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-marker type='barcode' value='3' vidhandler="video: #vid4">
+      <a-plane position="0 0 0" material='src: #vid4' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-marker type='barcode' value='4' vidhandler="video: #vid5">
+      <a-plane position="0 0 0" material='src: #vid5' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-marker type='barcode' value='5' vidhandler="video: #vid6">
+      <a-plane position="0 0 0" material='src: #vid6' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-marker type='barcode' value='6' vidhandler="video: #vid7">
+      <a-plane position="0 0 0" material='src: #vid7' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-marker type='barcode' value='7' vidhandler="video: #vid8">
+      <a-plane position="0 0 0" material='src: #vid8' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-marker type='barcode' value='8' vidhandler="video: #vid9">
+      <a-plane position="0 0 0" material='src: #vid9' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-marker type='barcode' value='9' vidhandler="video: #vid10">
+      <a-plane position="0 0 0" material='src: #vid10' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-marker type='barcode' value='10' vidhandler="video: #vid11">
+      <a-plane position="0 0 0" material='src: #vid11' height="2.25" width="4"  rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-entity camera></a-entity>
+  </a-scene>
+  

@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+div#dis {
+  width: 200px;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+} 
+.fadeIn{
+  animation-name: fadeIn;
+  animation-duration: .3s;
+  animation-fill-mode: forwards;
+}

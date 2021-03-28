@@ -1,0 +1,32 @@
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/bin/Debug/netcoreapp3.1/Editor.deps.json
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/bin/Debug/netcoreapp3.1/Editor.runtimeconfig.json
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/bin/Debug/netcoreapp3.1/Editor.runtimeconfig.dev.json
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/bin/Debug/netcoreapp3.1/Editor.dll
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/bin/Debug/netcoreapp3.1/Editor.pdb
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/bin/Debug/netcoreapp3.1/Newtonsoft.Json.pdb
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/bin/Debug/netcoreapp3.1/Newtonsoft.Json.xml
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/obj/Debug/netcoreapp3.1/Editor.AssemblyInfoInputs.cache
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/obj/Debug/netcoreapp3.1/Editor.AssemblyInfo.cs
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/obj/Debug/netcoreapp3.1/Editor.csproj.CoreCompileInputs.cache
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/obj/Debug/netcoreapp3.1/Editor.csproj.CopyComplete
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/obj/Debug/netcoreapp3.1/Editor.dll
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/obj/Debug/netcoreapp3.1/Editor.pdb
+/Applications/MAMP/htdocs/ShackSite/src/testinglab/JSONTest/Editor/obj/Debug/netcoreapp3.1/Editor.genruntimeconfig.cache
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\bin\Debug\netcoreapp3.1\Editor.exe
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\bin\Debug\netcoreapp3.1\Editor.deps.json
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\bin\Debug\netcoreapp3.1\Editor.runtimeconfig.json
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\bin\Debug\netcoreapp3.1\Editor.runtimeconfig.dev.json
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\bin\Debug\netcoreapp3.1\Editor.dll
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\bin\Debug\netcoreapp3.1\Editor.pdb
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.pdb
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.xml
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\obj\Debug\netcoreapp3.1\Editor.csprojAssemblyReference.cache
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\obj\Debug\netcoreapp3.1\Editor.AssemblyInfoInputs.cache
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\obj\Debug\netcoreapp3.1\Editor.AssemblyInfo.cs
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\obj\Debug\netcoreapp3.1\Editor.csproj.CoreCompileInputs.cache
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\obj\Debug\netcoreapp3.1\Editor.csproj.CopyComplete
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\obj\Debug\netcoreapp3.1\Editor.dll
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\obj\Debug\netcoreapp3.1\Editor.pdb
+C:\GitHub Projects\ShackSite\src\testinglab\JSONTest\Editor\obj\Debug\netcoreapp3.1\Editor.genruntimeconfig.cache

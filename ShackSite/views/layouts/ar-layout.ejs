@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en" > 
+  <head>
+      <meta name="viewport" content="height=device-height, 
+                      width=device-width, initial-scale=1.0, 
+                      minimum-scale=1.0, maximum-scale=1.0">
+        <title>The Poet Shack</title>
+        <link rel="stylesheet" href="../../stylesheets/normalize.css">
+        <link rel="stylesheet" href="../../stylesheets/styles.css">
+        <link rel="stylesheet" href="../../stylesheets/navbar.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+      <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+      <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+      <script>
+        //https://au.gmented.com/app/marker/marker.php barcode marker generator
+        //based on https://github.com/AR-js-org/AR.js/blob/master/aframe/examples/marker-based/multiple-independent-markers.html and another stack overflow page
+          AFRAME.registerComponent('vidhandler', {
+            schema: {
+              video: {type: 'selector'}
+            },
+            init: function() {
+                this.video = this.data.video
+                this.video.pause()
+            },
+            tick: function() {
+                if (this.el.object3D.visible == true) {
+                    if (!this.toggle) {
+                        this.toggle = true;
+                        this.video.play()
+                    }
+                } else {
+                    this.toggle = false;
+                    this.video.pause()
+                }
+            }
+          });
+        /*
+        var unmute = function(){
+          var video1=document.getElementById("vid1");
+          if(video1.muted){video1.muted = false;} else {video1.muted = true;}
+
+          var video2=document.getElementById("vid2");
+          if(video2.muted){video2.muted = false;} else {video2.muted = true;}
+
+          var video3=document.getElementById("vid3");
+          if(video3.muted){video3.muted = false;} else {video3.muted = true;}
+
+          var video4=document.getElementById("vid4");
+          if(video4.muted){video4.muted = false;} else {video4.muted = true;}
+
+          var video5=document.getElementById("vid5");
+          if(video5.muted){video5.muted = false;} else {video5.muted = true;}
+
+          var video6=document.getElementById("vid6");
+          if(video6.muted){video6.muted = false;} else {video6.muted = true;}
+
+          var video7=document.getElementById("vid7");
+          if(video7.muted){video7.muted = false;} else {video7.muted = true;}
+
+          var video8=document.getElementById("vid8");
+          if(video8.muted){video8.muted = false;} else {video8.muted = true;}
+
+          var video9=document.getElementById("vid9");
+          if(video9.muted){video9.muted = false;} else {video9.muted = true;}
+
+          var video10=document.getElementById("vid10");
+          if(video10.muted){video10.muted = false;} else {video10.muted = true;}
+
+          var video11=document.getElementById("vid11");
+          if(video11.muted){video11.muted = false;} else {video11.muted = true;}
+
+          var arjsvid=document.getElementById("arjs-video");
+          arjsvid.muted = !arjsvid.muted;
+
+          document.querySelector(".modal").style.display = 'none';
+          
+            <div class="modal">
+              <div>
+                <h1>INTERACT</h1>
+                <img src='../AR.svg'/>
+              </div>
+              <p>Use this tool to experience interactive poems</p>
+              <div class='closeArModal' onclick='unmute()'>Begin</div>
+            </div>
+        } */
+    </script>
+       
+  </head>
+  <body>
+    <%- body %>
+  </body>
+
+    <nav class="arClose">
+      <span class="material-icons arcloseButton" style="color: white;">
+          close
+      </span>
+  </nav>
+  </body>
+  <script src="../javascripts/main.js"></script>
+  </html>
