@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eca7773dbc7f5b47878b382f321f62e, type: 3}
+  m_Name: GoogleDriveSettings
+  m_EditorClassIdentifier: 
+  genericClientCredentials:
+    client_id: 484557892410-15jb628kmng9vs9kk7l52n9pqmhqjvta.apps.googleusercontent.com
+    project_id: ageless-lamp-293700
+    auth_uri: https://accounts.google.com/o/oauth2/auth
+    token_uri: https://oauth2.googleapis.com/token
+    auth_provider_x509_cert_url: https://www.googleapis.com/oauth2/v1/certs
+    client_secret: O9jEp3SnwEg632xaftvp6z3I
+    redirect_uris:
+    - http://localhost
+    - https://rydwy.itch.io/virtualshack
+    - http://rydwy.itch.io/virtualshack
+  uriSchemeClientCredentials:
+    clientId: 
+    reversedClientId: 
+    plistVersion: 
+    bundleId: 
+  accessScopes:
+  - https://www.googleapis.com/auth/drive
+  - https://www.googleapis.com/auth/drive.appdata
+  loopbackUri: http://localhost
+  loopbackResponseHtml: <html><h1>Please return to the app.</h1></html>
+  accessTokenPrefsKey: GoogleDriveAccessToken
+  refreshTokenPrefsKey: GoogleDriveRefreshToken
